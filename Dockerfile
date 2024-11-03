@@ -40,7 +40,7 @@ FROM base as final
  
 # Use production node environment by default.
 ENV NODE_ENV production
-ENV ORIGIN http://localhost:3000
+ENV ORIGIN https://alessandromosca-c2gja4fsc0ftesa2.italynorth-01.azurewebsites.net/
  
 # Run the application as a non-root user.
 USER node
